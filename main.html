@@ -1,0 +1,149 @@
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Web</title>
+    </header>
+    <style>
+        .kartu {
+            background-image: url("kartu.png");
+            background-size: cover;
+            max-width: 40%;
+            max-height: 90%;
+            margin-left: 30%;
+            margin-top: 5%;
+            border-radius: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        body {
+            background-image: url("./Background.jpeg");
+            background-size: cover;
+            background-position: center;
+            min-height: 100%;
+            margin: 0px;
+        }
+        .photo {
+            padding-top: 0%;
+        }
+        .logo {
+            display: inline-flexbox;
+            padding-top: 20px;
+        }
+        .instagram {
+            display: inline-flex;
+            padding: 2%;
+            background-color: #fdf0f3;
+            border-radius: 10px;
+        }
+        .instagram:hover {
+            background-color: #f9c6d1;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        .facebook {
+            display: inline-flex;
+            padding: 2%;
+            background-color: #fdf0f3;
+            border-radius: 10px;
+        }
+        .facebook:hover {
+            background-color: #accdff;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        .SMK {
+            display: inline-flex;
+            padding: 2%;
+            padding-right: 15px;
+            background-color: #f1f9f1;
+            border-radius: 10px;
+        }
+        .SMK:hover {
+            background-color: #63e0a7;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        h4 {
+            margin-left: 4%;
+            align-self: center;
+        }
+        header br {
+            background-color: blue;
+        }
+        footer br {
+            background-color: blue;
+        }
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h3 {
+            font-family: 'Merriweather', georgia;
+            font-size: 18px;
+            font-style: italic;
+        }
+        h4 {
+            font-family: 'Poppins', opensans ;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+        }
+        @media (max-width: 600px) {
+            .sosmed-container {
+                flex-direction: column;
+                align-items: center;
+                }
+            }
+            .sosmed-card {
+            width: 80%;
+            margin-bottom: 10px;
+            }
+    </style>
+    <body>
+        <div class="kartu">
+            <header><br></header>
+            <center>
+                <div class="photo" align="center">
+                    <img src="Amran Ali.png" width="300px" height="300px">
+                </div>
+                <div class="text">
+                    <h2>Drs. Amran Ali, MM</h2><h3>Kepala Sekolah SMKN1 Simpang Empat</h3>
+                </div>
+                <div class="logo">
+                    <a href="https://www.instagram.com/amranalmakassary?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <div class="instagram">
+                            <p>
+                                <img src="instgramku.png" width="40px" height="40px" align="middle">
+                                <h4>INSTAGRAM</h4>
+                            </p>
+                        </div>
+                    </a>
+                    <div class="facebook">
+                        <p>
+                            <img src="facebook.png" width="40px" height="40px" align="middle">
+                            <h4>FACEBOOK</h4>
+                        </p>
+                    </div>
+                    <a href="https://smkn1simpangempat.sch.id/">
+                        <div class="SMK">
+                            <p>
+                                <img src="smk.png" width="40px" height="40px" align="middle">
+                                <h4>WEBSITE</h4>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </center>
+            <footer><br></footer>
+        </div>
+    </body>
+</html>
